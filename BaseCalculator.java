@@ -117,4 +117,15 @@ public class BaseCalculator extends JPanel {
             }
         }
     }
+    public static void main(String[] args) {
+		JFrame myFrame = new JFrame();
+		myFrame.setSize(400, 400);
+		myFrame.setLocationRelativeTo(null);
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		myFrame.setTitle("Base calculator");
+		myFrame.add(new BaseCalculator());
+		myFrame.setVisible(true);
+
+	}
 }
+
